@@ -1,7 +1,4 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: "Roboto", Impact;
 }
 
@@ -33,4 +30,41 @@ li {
 
 .moon-logo {
     max-width: 50px;
+}
+
+.mountain {
+    max-width: 300px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 10px;
+   
+}
+
+.left-panel {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-basis: 300px;
+}
+
+.right-panel {
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 1px 10px;
+    font-weight: bold;
+    border: none;
+    width: 80px;
+    border-radius: 4px;
+    
+}
+
+.hero h1 {
+    color: #f9faf8;
 }
