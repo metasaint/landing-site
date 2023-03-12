@@ -2,15 +2,23 @@
     font-family: "Roboto", Impact;
 }
 
-header, .hero {
+body {
+    padding: 0 70px;
+    background-color: #1f2937;
+    border: 1px solid brown;
+
+}
+
+header, .hero h4 {
     background-color: #1f2937;
     color: #e5e7eb;
 }
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    border: 1px solid brown;
 }
 
 .logo-container {
@@ -33,25 +41,31 @@ li {
 }
 
 .mountain {
-    max-width: 300px;
+    min-height: 100%;
 }
 
 .hero {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    padding: 50px 10px;
-   
+    align-items: center; 
+    padding: 100px 0;
+    gap: 20px;
+    border: 1px solid brown;
 }
 
 .left-panel {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    flex-basis: 300px;
+    flex: 1;
+    justify-content: space-evenly;
 }
 
 .right-panel {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: end;
 }
 
 button {
@@ -67,4 +81,9 @@ button {
 
 .hero h1 {
     color: #f9faf8;
+    margin: 0;
+    font-size: 48px;
+    font-weight: bolder;
 }
+
+/*border: 1px solid brown;*/
