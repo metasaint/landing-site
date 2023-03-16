@@ -12,7 +12,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 500px;
+    padding: 0 600px;
     /*border: 1px solid brown;*/
 }
 
@@ -25,7 +25,7 @@ header>p {
 ul {
     display: flex;
     list-style: none;
-    gap: 10px;
+    gap: 20px;
 }
 
 li {
@@ -36,12 +36,13 @@ li {
     min-height: 100%;
 }
 
+
 .hero {
     display: flex;
     justify-content: space-between;
     align-items: center; 
     background-color: #1f2937;
-    padding: 50px 500px;
+    padding: 50px 600px;
 }
 
 .hero h4 {
@@ -83,6 +84,7 @@ button {
     font-weight: bold;
     border: none;
     width: 80px;
+    height: 25px;
     border-radius: 4px;
     
 }
@@ -163,3 +165,43 @@ button {
 }
 
 
+.action {
+    display: flex;
+    justify-content: center;
+}
+
+.action-sub {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    border-radius: 10px;
+    flex-basis: 700px;
+    justify-content: space-around;
+    height: 100px;
+    padding: 0 50px;
+
+}
+
+.action-text-containter {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+
+.action-text-containter p {
+    margin: 0;
+}
+
+.button2 {
+    border: 1px solid white;
+}
+
+.action-text {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.action-text-under {
+    color: #f9faf8;
+}
